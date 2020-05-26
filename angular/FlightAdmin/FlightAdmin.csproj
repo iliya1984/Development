@@ -23,6 +23,8 @@
     <Content Include="DAL\MongoRepository.cs" />
     <Content Include="DAL\ICrudRepository.cs" />
     <Content Include="BLL\ICrudService.cs" />
+    <Content Include="ClientApp\src\app\nav-menu\nav-menu.component.html" />
+    <TypeScriptCompile Include="ClientApp\src\app\app.server.module.ts" />
   </ItemGroup>
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->
