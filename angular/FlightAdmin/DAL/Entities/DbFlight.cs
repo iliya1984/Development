@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace FlightAdmin.Entities
+namespace FlightAdmin.DAL.Entities
 {
-    public class Flight
+    public class DbFlight
     {
-        public string Id { get; set;}
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string Id { get; set; }
+
         public string FlightNumber { get; set; }
         public string DepartureCode { get; set; }
         public string DestinationCode { get; set; }
@@ -15,7 +18,7 @@ namespace FlightAdmin.Entities
         public DateTime ReturnDate { get; set; }
         public List<string> Remarks { get; set; }
 
-        public Flight()
+        public DbFlight()
         {
             Remarks = new List<string>();
         }
