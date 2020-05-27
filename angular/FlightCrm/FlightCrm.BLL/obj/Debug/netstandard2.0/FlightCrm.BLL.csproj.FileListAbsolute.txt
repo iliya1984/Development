@@ -1,0 +1,14 @@
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/obj/Debug/netstandard2.0/FlightCrm.BLL.csprojAssemblyReference.cache
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/obj/Debug/netstandard2.0/FlightCrm.BLL.AssemblyInfoInputs.cache
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/obj/Debug/netstandard2.0/FlightCrm.BLL.AssemblyInfo.cs
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/obj/Debug/netstandard2.0/FlightCrm.BLL.csproj.CoreCompileInputs.cache
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/bin/Debug/netstandard2.0/FlightCrm.BLL.deps.json
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/bin/Debug/netstandard2.0/FlightCrm.BLL.dll
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/bin/Debug/netstandard2.0/FlightCrm.BLL.pdb
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/bin/Debug/netstandard2.0/FlightCrm.DAL.dll
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/bin/Debug/netstandard2.0/FlightCrm.Entities.dll
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/bin/Debug/netstandard2.0/FlightCrm.Entities.pdb
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/bin/Debug/netstandard2.0/FlightCrm.DAL.pdb
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/obj/Debug/netstandard2.0/FlightCrm.BLL.csproj.CopyComplete
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/obj/Debug/netstandard2.0/FlightCrm.BLL.dll
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/obj/Debug/netstandard2.0/FlightCrm.BLL.pdb
