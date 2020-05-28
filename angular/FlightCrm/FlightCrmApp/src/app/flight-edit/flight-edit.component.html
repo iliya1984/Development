@@ -1,1 +1,27 @@
-<p>flight-edit works!</p>
+<div class="flight-edit">
+   <div class="flight-edit-form"> 
+    <div class="title">Enter new flight details</div>
+    <form [formGroup]="flightEditForm" (ngSubmit)="onFormSubmit()">
+        <mat-form-field appearance="fill">
+            <mat-label>Flight Number</mat-label>
+            <input type="text" name="flightNumber" matInput>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Departure Code</mat-label>
+            <input type="text" name="departureCode" matInput>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Destination Code</mat-label>
+            <input type="text" name="destinationCode" matInput>
+          </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Departure Date</mat-label>
+            <input type="text" name="departureDate" matInput>
+          </mat-form-field>
+          <mat-form-field appearance="fill">
+              <mat-label>Return Date</mat-label>
+              <input type="text" name="returnDate" matInput>
+          </mat-form-field>
+    </form>
+   </div>
+  </div>
