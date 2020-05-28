@@ -12,3 +12,17 @@
 /home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/obj/Debug/netstandard2.0/FlightCrm.BLL.csproj.CopyComplete
 /home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/obj/Debug/netstandard2.0/FlightCrm.BLL.dll
 /home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/obj/Debug/netstandard2.0/FlightCrm.BLL.pdb
+C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.BLL\bin\Debug\netstandard2.0\FlightCrm.BLL.deps.json
+C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.BLL\bin\Debug\netstandard2.0\FlightCrm.BLL.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.BLL\bin\Debug\netstandard2.0\FlightCrm.BLL.pdb
+C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.BLL\bin\Debug\netstandard2.0\FlightCrm.DAL.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.BLL\bin\Debug\netstandard2.0\FlightCrm.Entities.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.BLL\bin\Debug\netstandard2.0\FlightCrm.Entities.pdb
+C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.BLL\bin\Debug\netstandard2.0\FlightCrm.DAL.pdb
+C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.BLL\obj\Debug\netstandard2.0\FlightCrm.BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.BLL\obj\Debug\netstandard2.0\FlightCrm.BLL.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.BLL\obj\Debug\netstandard2.0\FlightCrm.BLL.AssemblyInfo.cs
+C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.BLL\obj\Debug\netstandard2.0\FlightCrm.BLL.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.BLL\obj\Debug\netstandard2.0\FlightCrm.BLL.pdb
+C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.BLL\obj\Debug\netstandard2.0\FlightCrm.BLL.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.BLL\obj\Debug\netstandard2.0\FlightCrm.BLL.csproj.CopyComplete

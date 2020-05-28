@@ -13,16 +13,25 @@ namespace FlightCrm.DAL.Repositories
 
         protected SqlConnection CreateConnection()
         {
-            return new SqlConnection("");
+            return new SqlConnection("Server=DESKTOP-LAS719G\\SQLEXPRESS;Database=FlightTest01;User Id=administrator;Password=password;");
         }
 
         protected async Task ExecuteAsync(Func<SqlConnection, Task> asyncAction)
         {
-            using(var connection = CreateConnection())
+            try
             {
-                await connection.OpenAsync();
-                await asyncAction(connection);
+                using(var connection = CreateConnection())
+                {
+                    await connection.OpenAsync();
+                    await asyncAction(connection);
+                }
             }
+            catch(Exception ex)
+            {
+
+            }
+
+           
         }  
     }
 }

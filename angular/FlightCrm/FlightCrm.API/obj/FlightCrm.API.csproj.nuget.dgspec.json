@@ -1,35 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.API/FlightCrm.API.csproj": {}
+    "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.API\\FlightCrm.API.csproj": {}
   },
   "projects": {
-    "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.API/FlightCrm.API.csproj": {
+    "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.API\\FlightCrm.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.API/FlightCrm.API.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.API\\FlightCrm.API.csproj",
         "projectName": "FlightCrm.API",
-        "projectPath": "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.API/FlightCrm.API.csproj",
-        "packagesPath": "/home/ilya/.nuget/packages/",
-        "outputPath": "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.API/obj/",
+        "projectPath": "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.API\\FlightCrm.API.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/ilya/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/FlightCrm.BLL.csproj": {
-                "projectPath": "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/FlightCrm.BLL.csproj"
+              "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.BLL\\FlightCrm.BLL.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.BLL\\FlightCrm.BLL.csproj"
               },
-              "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/FlightCrm.Entities.csproj": {
-                "projectPath": "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/FlightCrm.Entities.csproj"
+              "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.Entities\\FlightCrm.Entities.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.Entities\\FlightCrm.Entities.csproj"
               }
             }
           }
@@ -43,6 +48,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.WebApiCompatShim": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -58,12 +67,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -72,36 +75,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/FlightCrm.BLL.csproj": {
+    "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.BLL\\FlightCrm.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/FlightCrm.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.BLL\\FlightCrm.BLL.csproj",
         "projectName": "FlightCrm.BLL",
-        "projectPath": "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/FlightCrm.BLL.csproj",
-        "packagesPath": "/home/ilya/.nuget/packages/",
-        "outputPath": "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.BLL/obj/",
+        "projectPath": "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.BLL\\FlightCrm.BLL.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.BLL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/ilya/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.DAL/FlightCrm.DAL.csproj": {
-                "projectPath": "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.DAL/FlightCrm.DAL.csproj"
+              "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.DAL\\FlightCrm.DAL.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.DAL\\FlightCrm.DAL.csproj"
               },
-              "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/FlightCrm.Entities.csproj": {
-                "projectPath": "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/FlightCrm.Entities.csproj"
+              "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.Entities\\FlightCrm.Entities.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.Entities\\FlightCrm.Entities.csproj"
               }
             }
           }
@@ -132,33 +140,38 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.DAL/FlightCrm.DAL.csproj": {
+    "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.DAL\\FlightCrm.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.DAL/FlightCrm.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.DAL\\FlightCrm.DAL.csproj",
         "projectName": "FlightCrm.DAL",
-        "projectPath": "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.DAL/FlightCrm.DAL.csproj",
-        "packagesPath": "/home/ilya/.nuget/packages/",
-        "outputPath": "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.DAL/obj/",
+        "projectPath": "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.DAL\\FlightCrm.DAL.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/ilya/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/FlightCrm.Entities.csproj": {
-                "projectPath": "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/FlightCrm.Entities.csproj"
+              "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.Entities\\FlightCrm.Entities.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.Entities\\FlightCrm.Entities.csproj"
               }
             }
           }
@@ -201,26 +214,31 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/FlightCrm.Entities.csproj": {
+    "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.Entities\\FlightCrm.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/FlightCrm.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.Entities\\FlightCrm.Entities.csproj",
         "projectName": "FlightCrm.Entities",
-        "projectPath": "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/FlightCrm.Entities.csproj",
-        "packagesPath": "/home/ilya/.nuget/packages/",
-        "outputPath": "/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/obj/",
+        "projectPath": "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.Entities\\FlightCrm.Entities.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\angular\\FlightCrm\\FlightCrm.Entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/ilya/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -254,7 +272,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

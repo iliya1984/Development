@@ -131,7 +131,7 @@ namespace FlightCrm.DAL.Repositories
             flight.FlightNumber = dbFlight.FlightNumber;
             flight.DepartureCode = dbFlight.DepartureCode;
             flight.DestinationCode = dbFlight.DestinationCode;
-            flight.DepartureDate = dbFlight.DepartureDate;
+            flight.DepartureDate =  dbFlight.DepartureDate;
             flight.ReturnDate = dbFlight.ReturnDate;
             flight.Id = dbFlight.Id;
 

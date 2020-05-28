@@ -4,12 +4,13 @@ using System.Web.Http;
 using FlightCrm.BLL.Interfaces;
 using FlightCrm.BLL.Services;
 using FlightCrm.Entities;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FlightCrm.API.Controllers
 {
     [ApiController]
-    [Route("api/flights")]
+    [EnableCors("CorsPolicy")]
     public class FlightsController: ControllerBase
     {
         private IFlightService service;
@@ -21,11 +22,12 @@ namespace FlightCrm.API.Controllers
         }
 
         [HttpPost]
-        [Route("api/flights/create")]
-        public async Task<IActionResult> CreateFlightAsync([FromBody]Flight flight)
+        [Route("newflight")]
+        public async Task<IActionResult> CreateFlightAsync(Flight flight)
         {
             try
             {
+                
                 var result = await service.CreateAsync(flight);
                 if(result == null)
                 {

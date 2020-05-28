@@ -4,24 +4,27 @@
     <form [formGroup]="flightEditForm" (ngSubmit)="onFormSubmit()">
         <mat-form-field appearance="fill">
             <mat-label>Flight Number</mat-label>
-            <input type="text" name="flightNumber" matInput>
+            <input type="text" formControlName="flightNumber" matInput>
         </mat-form-field>
         <mat-form-field appearance="fill">
             <mat-label>Departure Code</mat-label>
-            <input type="text" name="departureCode" matInput>
+            <input type="text" formControlName="departureCode" matInput>
         </mat-form-field>
         <mat-form-field appearance="fill">
             <mat-label>Destination Code</mat-label>
-            <input type="text" name="destinationCode" matInput>
+            <input type="text" formControlName="destinationCode" matInput>
           </mat-form-field>
         <mat-form-field appearance="fill">
             <mat-label>Departure Date</mat-label>
-            <input type="text" name="departureDate" matInput>
+            <input type="text" formControlName="departureDate" matInput>
           </mat-form-field>
           <mat-form-field appearance="fill">
               <mat-label>Return Date</mat-label>
-              <input type="text" name="returnDate" matInput>
+              <input type="text" formControlName="returnDate" matInput>
           </mat-form-field>
+          <div class="button">
+            <button mat-button type="submit">Save</button>
+          </div>
     </form>
    </div>
   </div>
