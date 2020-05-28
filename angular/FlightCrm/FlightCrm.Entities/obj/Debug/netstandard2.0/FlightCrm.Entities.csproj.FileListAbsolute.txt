@@ -1,0 +1,9 @@
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/bin/Debug/netstandard2.0/FlightCrm.Entities.deps.json
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/bin/Debug/netstandard2.0/FlightCrm.Entities.dll
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/bin/Debug/netstandard2.0/FlightCrm.Entities.pdb
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/obj/Debug/netstandard2.0/FlightCrm.Entities.csprojAssemblyReference.cache
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/obj/Debug/netstandard2.0/FlightCrm.Entities.AssemblyInfoInputs.cache
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/obj/Debug/netstandard2.0/FlightCrm.Entities.AssemblyInfo.cs
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/obj/Debug/netstandard2.0/FlightCrm.Entities.csproj.CoreCompileInputs.cache
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/obj/Debug/netstandard2.0/FlightCrm.Entities.dll
+/home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/obj/Debug/netstandard2.0/FlightCrm.Entities.pdb
