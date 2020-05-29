@@ -1,0 +1,14 @@
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.BLL\bin\Debug\netcoreapp3.1\Customers.BLL.deps.json
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.BLL\bin\Debug\netcoreapp3.1\Customers.BLL.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.BLL\bin\Debug\netcoreapp3.1\Customers.BLL.pdb
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.BLL\bin\Debug\netcoreapp3.1\Customers.DAL.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.BLL\bin\Debug\netcoreapp3.1\Customers.Entities.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.BLL\bin\Debug\netcoreapp3.1\Customers.DAL.pdb
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.BLL\bin\Debug\netcoreapp3.1\Customers.Entities.pdb
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.BLL\obj\Debug\netcoreapp3.1\Customers.BLL.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.BLL\obj\Debug\netcoreapp3.1\Customers.BLL.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.BLL\obj\Debug\netcoreapp3.1\Customers.BLL.AssemblyInfo.cs
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.BLL\obj\Debug\netcoreapp3.1\Customers.BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.BLL\obj\Debug\netcoreapp3.1\Customers.BLL.csproj.CopyComplete
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.BLL\obj\Debug\netcoreapp3.1\Customers.BLL.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.BLL\obj\Debug\netcoreapp3.1\Customers.BLL.pdb

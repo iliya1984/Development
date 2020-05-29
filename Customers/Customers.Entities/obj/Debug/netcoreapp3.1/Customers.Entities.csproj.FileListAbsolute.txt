@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.Entities\bin\Debug\netcoreapp3.1\Customers.Entities.deps.json
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.Entities\bin\Debug\netcoreapp3.1\Customers.Entities.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.Entities\bin\Debug\netcoreapp3.1\Customers.Entities.pdb
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.Entities\obj\Debug\netcoreapp3.1\Customers.Entities.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.Entities\obj\Debug\netcoreapp3.1\Customers.Entities.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.Entities\obj\Debug\netcoreapp3.1\Customers.Entities.AssemblyInfo.cs
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.Entities\obj\Debug\netcoreapp3.1\Customers.Entities.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.Entities\obj\Debug\netcoreapp3.1\Customers.Entities.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.Entities\obj\Debug\netcoreapp3.1\Customers.Entities.pdb

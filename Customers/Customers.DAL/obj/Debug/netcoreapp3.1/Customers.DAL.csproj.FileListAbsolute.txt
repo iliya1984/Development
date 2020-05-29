@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.DAL\bin\Debug\netcoreapp3.1\Customers.DAL.deps.json
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.DAL\bin\Debug\netcoreapp3.1\Customers.DAL.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.DAL\bin\Debug\netcoreapp3.1\Customers.Entities.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.DAL\bin\Debug\netcoreapp3.1\Customers.Entities.pdb
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.DAL\obj\Debug\netcoreapp3.1\Customers.DAL.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.DAL\obj\Debug\netcoreapp3.1\Customers.DAL.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.DAL\obj\Debug\netcoreapp3.1\Customers.DAL.AssemblyInfo.cs
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.DAL\obj\Debug\netcoreapp3.1\Customers.DAL.csproj.CopyComplete
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.DAL\bin\Debug\netcoreapp3.1\Customers.DAL.pdb
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.DAL\obj\Debug\netcoreapp3.1\Customers.DAL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.DAL\obj\Debug\netcoreapp3.1\Customers.DAL.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\Customers\Customers.DAL\obj\Debug\netcoreapp3.1\Customers.DAL.pdb
