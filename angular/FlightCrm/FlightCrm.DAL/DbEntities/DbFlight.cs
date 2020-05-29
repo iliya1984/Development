@@ -4,7 +4,7 @@ namespace FlightCrm.DAL.DbEntities
 {
     public class DbFlight
     {
-        public int Id { get; set;}
+        public int Pkid { get; set;}
         public string FlightNumber { get; set; }
         public string DestinationCode { get; set;}
         public string DepartureCode { get; set;}

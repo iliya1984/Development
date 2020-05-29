@@ -1,7 +1,27 @@
 .flights
 {
+    position: absolute;
+    width: 1000px;
+
     .new-flight-button
     {
         margin-left: 30px;
+    }
+    
+    .results
+    {
+        
+        margin-top: 30px;
+        margin-left: 30px;
+
+        table 
+        {
+            width: 100%;
+        }
+          
+          th.mat-sort-header-sorted {
+            color: black;
+          }
+          
     }
 }

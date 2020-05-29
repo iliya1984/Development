@@ -54,7 +54,8 @@ namespace FlightCrm.DAL.Repositories
             {
                 List<DbFlight> dbItems = null;
                 DbFlightFilter dbFilter = new DbFlightFilter();
-                
+                dbFilter.Pkid = filter.FlightId;
+
                 await ExecuteAsync( async (connection) =>
                 {
                      var dbFlights = await connection.QueryAsync<DbFlight>(
@@ -120,7 +121,7 @@ namespace FlightCrm.DAL.Repositories
             dbFlight.DestinationCode = flight.DestinationCode;
             dbFlight.DepartureDate = flight.DepartureDate;
             dbFlight.ReturnDate = flight.ReturnDate;
-            dbFlight.Id = flight.Id;
+            dbFlight.Pkid = flight.Id;
 
             return dbFlight;
         }
@@ -133,7 +134,7 @@ namespace FlightCrm.DAL.Repositories
             flight.DestinationCode = dbFlight.DestinationCode;
             flight.DepartureDate =  dbFlight.DepartureDate;
             flight.ReturnDate = dbFlight.ReturnDate;
-            flight.Id = dbFlight.Id;
+            flight.Id = dbFlight.Pkid;
 
             return flight;
         }

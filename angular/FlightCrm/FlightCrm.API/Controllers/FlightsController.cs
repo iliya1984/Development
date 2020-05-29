@@ -21,8 +21,8 @@ namespace FlightCrm.API.Controllers
             service = ServiceFactory.CreateFlightService();
         }
 
-        [HttpPost]
-        [Route("newflight")]
+        [HttpPost()]
+        [Route("api/flights/new")]
         public async Task<IActionResult> CreateFlightAsync(Flight flight)
         {
             try
@@ -62,13 +62,31 @@ namespace FlightCrm.API.Controllers
             }
         }
 
-        [HttpGet]
-        [Route("api/flights")]
-        public async Task<IActionResult> GetFlightAsync([FromBody]FlightFilter filter)
+        // [HttpGet("api/flights")]
+        // public async Task<IActionResult> GetFlightAsync()
+        // {
+        //     try
+        //     {
+        //         var result = await service.GetAsync(new FlightFilter());
+        //         if(result == null)
+        //         {
+        //             return new InternalServerErrorResult();
+        //         }
+
+        //         return Ok(result);
+        //     }
+        //     catch(Exception ex)
+        //     {
+        //         return new ExceptionResult(ex, true);
+        //     }
+        // }
+
+        [HttpGet("api/flights/{flightId:int?}")]
+        public async Task<IActionResult> GetFlightAsync(int flightId = 0)
         {
             try
             {
-                var result = await service.GetAsync(filter);
+                var result = await service.GetAsync(new FlightFilter{ FlightId = flightId });
                 if(result == null)
                 {
                     return new InternalServerErrorResult();
