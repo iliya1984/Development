@@ -5,6 +5,7 @@ import { FormGroup, FormControl, FormBuilder, Validators } from '@angular/forms'
 @Component({
   selector: 'app-customer-edit',
   templateUrl: './customer-edit.component.html',
+  styleUrls:['./customer-edit.component.css']  
 })
 export class CustomerEditComponent implements OnInit {
 
@@ -16,9 +17,11 @@ export class CustomerEditComponent implements OnInit {
 
   public ngOnInit(): void
   {
-    this.formBuilder.group({
+    this.customerEditForm = this.formBuilder.group({
       firstName: ['', Validators.required],
-      lastName: ['', Validators.required]
+      lastName: ['', Validators.required],
+      phone: ['', Validators.required],
+      email: ['', Validators.required]
     });
   }
 

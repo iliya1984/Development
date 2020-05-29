@@ -9,9 +9,9 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { CustomerLookupComponent } from './customer-lookup/customer-lookup.component';
 import { CustomerEditComponent } from './customer-edit/customer-edit.component';
 import { ReactiveFormsModule } from '@angular/forms';
-//import { MatFormFieldModule } from '@angular/material/form-field';
-//import { MatInputModule } from '@angular/material/input';
-//import { MatButtonModule } from '@angular/material/button';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
 
 
 @NgModule({
@@ -26,9 +26,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    //MatFormFieldModule,
-    //MatInputModule,
-    //MatButtonModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule,
     RouterModule.forRoot([
       { path: '', component: CustomerLookupComponent, pathMatch: 'full' },
       { path: 'customers', component: CustomerLookupComponent },
