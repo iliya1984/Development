@@ -43,7 +43,7 @@ namespace FlightCrm.API.Controllers
         }
 
         [HttpPut]
-        [Route("api/flights/update")]
+        [Route("api/flights/edit")]
         public async Task<IActionResult> UpdateFlightAsync([FromBody]Flight flight)
         {
             try
@@ -61,25 +61,6 @@ namespace FlightCrm.API.Controllers
                 return new ExceptionResult(ex, true);
             }
         }
-
-        // [HttpGet("api/flights")]
-        // public async Task<IActionResult> GetFlightAsync()
-        // {
-        //     try
-        //     {
-        //         var result = await service.GetAsync(new FlightFilter());
-        //         if(result == null)
-        //         {
-        //             return new InternalServerErrorResult();
-        //         }
-
-        //         return Ok(result);
-        //     }
-        //     catch(Exception ex)
-        //     {
-        //         return new ExceptionResult(ex, true);
-        //     }
-        // }
 
         [HttpGet("api/flights/{flightId:int?}")]
         public async Task<IActionResult> GetFlightAsync(int flightId = 0)

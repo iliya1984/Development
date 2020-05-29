@@ -2,7 +2,10 @@
    <div class="flight-edit-form"> 
     <div class="title">Enter new flight details</div>
     <form [formGroup]="flightEditForm" (ngSubmit)="onFormSubmit()">
-        <mat-form-field appearance="fill">
+      <mat-form-field [hidden]="true" appearance="fill">
+        <input formControlName="id" matInput>
+      </mat-form-field> 
+       <mat-form-field appearance="fill">
             <mat-label>Flight Number</mat-label>
             <input type="text" formControlName="flightNumber" matInput>
         </mat-form-field>

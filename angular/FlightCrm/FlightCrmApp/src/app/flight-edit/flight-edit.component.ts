@@ -11,7 +11,6 @@ import { IFlight } from '../entities/interfaces/IFlight';
 })
 export class FlightEditComponent implements OnInit {
 
-  private SERVER_URL = 'https://localhost:5001/api/flights/new';
   private httpOptions ={
     headers: new HttpHeaders({ 
       'Access-Control-Allow-Origin':'*'
@@ -39,6 +38,7 @@ export class FlightEditComponent implements OnInit {
           {
             var flight = data[0];
             this.flightEditForm = this.formBuilder.group({
+              id:[flight.id, Validators.required],
               flightNumber:[flight.flightNumber, Validators.required],
               departureCode:[flight.departureCode, Validators.required],
               destinationCode:[flight.destinationCode, Validators.required],
@@ -53,6 +53,7 @@ export class FlightEditComponent implements OnInit {
     else
     {
       this.flightEditForm = this.formBuilder.group({
+        id:[''],
         flightNumber:['', Validators.required],
         departureCode:['', Validators.required],
         destinationCode:['', Validators.required],
@@ -71,12 +72,28 @@ export class FlightEditComponent implements OnInit {
      flight.DepartureDate = this.flightEditForm.controls['departureDate'].value;
      flight.ReturnDate = this.flightEditForm.controls['returnDate'].value;
 
-    this.httpClient.post<any>(this.SERVER_URL, flight, this.httpOptions).subscribe(
-      (res) => 
-      {
-        console.log(res);
-      },
-      (err) => console.log(err)
-    );
+     var flightId = this.activatedRoute.snapshot.params.flightid;
+
+     if(typeof flightId === 'undefined')
+     {
+      this.httpClient.post<any>('https://localhost:5001/api/flights/new', flight, this.httpOptions).subscribe(
+        (res) => 
+        {
+          console.log(res);
+        },
+        (err) => console.log(err)
+      );
+     }
+     else
+     {
+      flight.id = this.flightEditForm.controls['id'].value;
+      this.httpClient.put<any>('https://localhost:5001/api/flights/edit', flight, this.httpOptions).subscribe(
+        (res) => 
+        {
+          console.log(res);
+        },
+        (err) => console.log(err)
+      );
+     }
   }
 }
