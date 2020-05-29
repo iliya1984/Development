@@ -6,26 +6,33 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
-import { HomeComponent } from './home/home.component';
-import { CounterComponent } from './counter/counter.component';
-import { FetchDataComponent } from './fetch-data/fetch-data.component';
+import { CustomerLookupComponent } from './customer-lookup/customer-lookup.component';
+import { CustomerEditComponent } from './customer-edit/customer-edit.component';
+import { ReactiveFormsModule } from '@angular/forms';
+//import { MatFormFieldModule } from '@angular/material/form-field';
+//import { MatInputModule } from '@angular/material/input';
+//import { MatButtonModule } from '@angular/material/button';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavMenuComponent,
-    HomeComponent,
-    CounterComponent,
-    FetchDataComponent
+    CustomerLookupComponent,
+    CustomerEditComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
     FormsModule,
+    ReactiveFormsModule,
+    //MatFormFieldModule,
+    //MatInputModule,
+    //MatButtonModule,
     RouterModule.forRoot([
-      { path: '', component: HomeComponent, pathMatch: 'full' },
-      { path: 'counter', component: CounterComponent },
-      { path: 'fetch-data', component: FetchDataComponent },
+      { path: '', component: CustomerLookupComponent, pathMatch: 'full' },
+      { path: 'customers', component: CustomerLookupComponent },
+      { path: 'customers/new', component: CustomerEditComponent },
     ])
   ],
   providers: [],
