@@ -1,3 +1,12 @@
+C:/Users/user/Desktop/Workspace/GIT/Development/angular/FlightCrm/FlightCrm.Entities/bin/Debug/netstandard2.0/FlightCrm.Entities.deps.json
+C:/Users/user/Desktop/Workspace/GIT/Development/angular/FlightCrm/FlightCrm.Entities/bin/Debug/netstandard2.0/FlightCrm.Entities.dll
+C:/Users/user/Desktop/Workspace/GIT/Development/angular/FlightCrm/FlightCrm.Entities/bin/Debug/netstandard2.0/FlightCrm.Entities.pdb
+C:/Users/user/Desktop/Workspace/GIT/Development/angular/FlightCrm/FlightCrm.Entities/obj/Debug/netstandard2.0/FlightCrm.Entities.csproj.CoreCompileInputs.cache
+C:/Users/user/Desktop/Workspace/GIT/Development/angular/FlightCrm/FlightCrm.Entities/obj/Debug/netstandard2.0/FlightCrm.Entities.AssemblyInfoInputs.cache
+C:/Users/user/Desktop/Workspace/GIT/Development/angular/FlightCrm/FlightCrm.Entities/obj/Debug/netstandard2.0/FlightCrm.Entities.AssemblyInfo.cs
+C:/Users/user/Desktop/Workspace/GIT/Development/angular/FlightCrm/FlightCrm.Entities/obj/Debug/netstandard2.0/FlightCrm.Entities.dll
+C:/Users/user/Desktop/Workspace/GIT/Development/angular/FlightCrm/FlightCrm.Entities/obj/Debug/netstandard2.0/FlightCrm.Entities.pdb
+C:/Users/user/Desktop/Workspace/GIT/Development/angular/FlightCrm/FlightCrm.Entities/obj/Debug/netstandard2.0/FlightCrm.Entities.csprojAssemblyReference.cache
 /home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/bin/Debug/netstandard2.0/FlightCrm.Entities.deps.json
 /home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/bin/Debug/netstandard2.0/FlightCrm.Entities.dll
 /home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/bin/Debug/netstandard2.0/FlightCrm.Entities.pdb
@@ -7,12 +16,3 @@
 /home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/obj/Debug/netstandard2.0/FlightCrm.Entities.csproj.CoreCompileInputs.cache
 /home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/obj/Debug/netstandard2.0/FlightCrm.Entities.dll
 /home/ilya/Desktop/Workspace/Development/angular/FlightCrm/FlightCrm.Entities/obj/Debug/netstandard2.0/FlightCrm.Entities.pdb
-C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.Entities\bin\Debug\netstandard2.0\FlightCrm.Entities.deps.json
-C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.Entities\bin\Debug\netstandard2.0\FlightCrm.Entities.dll
-C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.Entities\bin\Debug\netstandard2.0\FlightCrm.Entities.pdb
-C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.Entities\obj\Debug\netstandard2.0\FlightCrm.Entities.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.Entities\obj\Debug\netstandard2.0\FlightCrm.Entities.AssemblyInfoInputs.cache
-C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.Entities\obj\Debug\netstandard2.0\FlightCrm.Entities.AssemblyInfo.cs
-C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.Entities\obj\Debug\netstandard2.0\FlightCrm.Entities.dll
-C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.Entities\obj\Debug\netstandard2.0\FlightCrm.Entities.pdb
-C:\Users\user\Desktop\Workspace\GIT\Development\angular\FlightCrm\FlightCrm.Entities\obj\Debug\netstandard2.0\FlightCrm.Entities.csprojAssemblyReference.cache

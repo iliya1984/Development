@@ -4,6 +4,7 @@ namespace FlightCrm.Entities
 {
     public class Flight
     {
+        public string Guid { get; set;}
         public int Id { get; set;}
         public string FlightNumber { get; set; }
         public string DestinationCode { get; set;}

@@ -6,7 +6,7 @@ namespace FlightCrm.DAL.Repositories
     {
         public static IFlightRepository CreateFlightRepository()
         {
-            return new FlightRepository();
+            return new MssqlFlightRepository();
         }
     }
 }

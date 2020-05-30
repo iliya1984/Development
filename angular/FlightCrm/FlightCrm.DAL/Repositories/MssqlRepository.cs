@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 
 namespace FlightCrm.DAL.Repositories
 {
-    internal abstract class DapperRepository
+    internal abstract class MssqlRepository
     {
-        protected DapperRepository()
+        protected MssqlRepository()
         {
 
         }
