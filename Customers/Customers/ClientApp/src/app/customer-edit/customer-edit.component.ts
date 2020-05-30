@@ -30,6 +30,7 @@ export class CustomerEditComponent implements OnInit {
             if (customers.length > 0)
             {
               this.customerEditForm = this.formBuilder.group({
+                id: [customers[0].id],
                 firstName: [customers[0].firstName, Validators.required],
                 lastName: [customers[0].lastName, Validators.required],
                 phone: [customers[0].email, Validators.required],
@@ -50,6 +51,7 @@ export class CustomerEditComponent implements OnInit {
     else
     {
       this.customerEditForm = this.formBuilder.group({
+        id: ['0'],
         firstName: ['', Validators.required],
         lastName: ['', Validators.required],
         phone: ['', Validators.required],
@@ -62,30 +64,55 @@ export class CustomerEditComponent implements OnInit {
   {
     var customer: ICustomer =
     {
-      id: 0,
+      id: this.customerEditForm.controls['id'].value,
       firstName: this.customerEditForm.controls['firstName'].value,
       lastName: this.customerEditForm.controls['lastName'].value,
       email: this.customerEditForm.controls['email'].value,
       phone: this.customerEditForm.controls['phone'].value,
     };
 
-    this.httpClient.post<ICustomer>('api/customers/new', customer)
-      .subscribe(
-        val => {
-          console.log("PUT call successful value returned in body",
-            val);
+    var customerId = this.activatedRoute.snapshot.params.id;
 
-          if (typeof val.id !== 'undefined') {
-            alert('New customer was successfully created !');
+    if (typeof customerId !== 'undefined')
+    {
+      this.httpClient.post<ICustomer>('api/customers/edit', customer)
+        .subscribe(
+          val => {
+            console.log("PUT call successful value returned in body",
+              val);
+
+            if (typeof val.id !== 'undefined') {
+              alert('New customer was successfully created !');
+            }
+          },
+          response => {
+            console.log("PUT call in error", response);
+          },
+          () => {
+            console.log("The PUT observable is now completed.");
           }
-        },
-        response => {
-          console.log("PUT call in error", response);
-        },
-        () => {
-          console.log("The PUT observable is now completed.");
-        }
-      );
+        );
+    }
+    else
+    {
+      this.httpClient.post<ICustomer>('api/customers/new', customer)
+        .subscribe(
+          val => {
+            console.log("PUT call successful value returned in body",
+              val);
+
+            if (typeof val.id !== 'undefined') {
+              alert('New customer was successfully created !');
+            }
+          },
+          response => {
+            console.log("PUT call in error", response);
+          },
+          () => {
+            console.log("The PUT observable is now completed.");
+          }
+        );
+    }
   }
 
 }

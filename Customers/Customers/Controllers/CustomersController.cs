@@ -42,6 +42,27 @@ namespace Customers.Controllers
             }
         }
 
+        [HttpPost]
+        [Route("api/customers/edit")]
+        public async Task<IActionResult> UpdateCustomer(Customer customer)
+        {
+            try
+            {
+                var result = await _service.UpdateAsync(customer);
+
+                if (result == null)
+                {
+                    return new InternalServerErrorResult();
+                }
+
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return new ExceptionResult(ex, true);
+            }
+        }
+
         [HttpGet]
         [Route("api/customers")]
         public async Task<IActionResult> GetCustomers(string customerId = null)

@@ -32,6 +32,19 @@ namespace Customers.BLL
             }
         }
 
+        public async Task<Customer> UpdateAsync(Customer customer)
+        {
+            try
+            {
+                return await _repository.UpdateAsync(customer);
+            }
+            catch (Exception ex)
+            {
+                //TODO: log error
+                return null;
+            }
+        }
+
         public async Task<List<Customer>> GetAsync(CustomerFilter filter)
         {
             try

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Customers.DAL
 {
-    internal abstract class DapperRepository
+    internal abstract class MssqlRepository
     {
-        protected DapperRepository() 
+        protected MssqlRepository() 
         {
         
         }

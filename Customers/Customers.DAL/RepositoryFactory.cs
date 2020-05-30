@@ -9,7 +9,7 @@ namespace Customers.DAL
     {
         public static ICustomerRepository CreateCustomerRepository() 
         {
-            return new CustomerRepository();
+            return new MssqlCustomerRepository();
         }
     }
 }

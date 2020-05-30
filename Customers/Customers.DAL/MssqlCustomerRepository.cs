@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace Customers.DAL
 {
-    internal class CustomerRepository : DapperRepository, ICustomerRepository
+    internal class MssqlCustomerRepository : MssqlRepository, ICustomerRepository
     {
-        public CustomerRepository()
+        public MssqlCustomerRepository()
         {
         }
 
@@ -82,6 +82,32 @@ namespace Customers.DAL
                     var result = await connection.QueryAsync<DbCustomer>(
                         sql: "usp_ustomerInsert", 
                         param: dbCustomer, 
+                        commandType: CommandType.StoredProcedure
+                    );
+
+                    dbCustomer = result.FirstOrDefault();
+                });
+
+                return toCustomer(dbCustomer);
+            }
+            catch (Exception ex)
+            {
+                //TODO: log error
+                return null;
+            }
+        }
+
+        public async Task<Customer>UpdateAsync(Customer customer)
+        {
+            try
+            {
+                var dbCustomer = toDbCustomer(customer);
+
+                await ExecuteAsync(async (connection) =>
+                {
+                    var result = await connection.QueryAsync<DbCustomer>(
+                        sql: "usp_ustomerUpdate",
+                        param: dbCustomer,
                         commandType: CommandType.StoredProcedure
                     );
 

@@ -9,6 +9,7 @@ namespace Customers.BLL.Interfaces
     public interface ICustomerService
     {
         Task<Customer> CreateAsync(Customer customer);
+        Task<Customer> UpdateAsync(Customer customer);
         Task<List<Customer>> GetAsync(CustomerFilter filter);
     }
 }
