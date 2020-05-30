@@ -5,6 +5,7 @@ import { ICustomer } from '../entities/ICustomer';
 import { MatPaginator } from '@angular/material/paginator';
 import { HttpClient } from '@angular/common/http';
 import { MatSort } from '@angular/material/sort';
+import { Icu } from '@angular/compiler/src/i18n/i18n_ast';
 
 @Component({
   selector: 'app-customer-lookup',
@@ -13,7 +14,7 @@ import { MatSort } from '@angular/material/sort';
 })
 export class CustomerLookupComponent implements OnInit, AfterViewInit
 {
-  public displayedColumns: string[] = ['firstName', 'lastName', 'phone', 'email'];
+  public displayedColumns: string[] = ['firstName', 'lastName', 'phone', 'email', 'actions'];
   public dataSource: MatTableDataSource<ICustomer>;
 
   @ViewChild(MatSort, { static: true }) sort: MatSort;
@@ -48,8 +49,12 @@ export class CustomerLookupComponent implements OnInit, AfterViewInit
       );
   }
 
-  public onNewCustomerButtonClick(event: any): void
+  public onNewButtonClick(event: any): void
   {
     this.router.navigate(['customers/new']);
+  }
+
+  public onEditButtonClick(customer: ICustomer): void {
+    this.router.navigate(['customers/edit', customer.id.toString()]);
   }
 }

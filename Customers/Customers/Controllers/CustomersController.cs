@@ -44,11 +44,11 @@ namespace Customers.Controllers
 
         [HttpGet]
         [Route("api/customers")]
-        public async Task<IActionResult> GetCustomers()
+        public async Task<IActionResult> GetCustomers(string customerId = null)
         {
             try
             {
-                var result = await _service.GetAsync(new CustomerFilter());
+                var result = await _service.GetAsync(new CustomerFilter { CustomerId = customerId });
 
                 if (result == null)
                 {

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 import { FormGroup, FormControl, FormBuilder, Validators } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { ICustomer } from '../entities/ICustomer';
@@ -13,18 +13,49 @@ export class CustomerEditComponent implements OnInit {
 
   public customerEditForm: FormGroup;
 
-  constructor(private router: Router, private formBuilder: FormBuilder, private httpClient: HttpClient) {
+  constructor(private router: Router, private activatedRoute: ActivatedRoute, private formBuilder: FormBuilder, private httpClient: HttpClient) {
 
   }
 
   public ngOnInit(): void
   {
-    this.customerEditForm = this.formBuilder.group({
-      firstName: ['', Validators.required],
-      lastName: ['', Validators.required],
-      phone: ['', Validators.required],
-      email: ['', Validators.required]
-    });
+    var customerId = this.activatedRoute.snapshot.params.id;
+
+    if (typeof customerId !== 'undefined') {
+
+      this.httpClient.get<ICustomer[]>('api/customers?customerId=' + customerId)
+        .subscribe(
+          (customers: ICustomer[]) => {
+
+            if (customers.length > 0)
+            {
+              this.customerEditForm = this.formBuilder.group({
+                firstName: [customers[0].firstName, Validators.required],
+                lastName: [customers[0].lastName, Validators.required],
+                phone: [customers[0].email, Validators.required],
+                email: [customers[0].phone, Validators.required]
+              });
+            }
+
+            
+          },
+          response => {
+            console.log("PUT call in error", response);
+          },
+          () => {
+            console.log("The PUT observable is now completed.");
+          }
+        );
+    }
+    else
+    {
+      this.customerEditForm = this.formBuilder.group({
+        firstName: ['', Validators.required],
+        lastName: ['', Validators.required],
+        phone: ['', Validators.required],
+        email: ['', Validators.required]
+      });
+    }
   }
 
   public onFormSubmit(): void

@@ -6,6 +6,6 @@ namespace Customers.Entities
 {
     public class CustomerFilter
     {
-        public long CustomerId { get; set; }
+        public string CustomerId { get; set; }
     }
 }

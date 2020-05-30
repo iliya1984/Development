@@ -39,6 +39,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
       { path: '', component: CustomerLookupComponent, pathMatch: 'full' },
       { path: 'customers', component: CustomerLookupComponent },
       { path: 'customers/new', component: CustomerEditComponent },
+      { path: 'customers/edit/:id', component: CustomerEditComponent }
     ])
   ],
   providers: [],

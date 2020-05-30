@@ -6,6 +6,6 @@ namespace Customers.DAL.Entities
 {
     public class DbCustomerFilter
     {
-        public long CustomerId { get; set; }
+        public string CustomerId { get; set; }
     }
 }
