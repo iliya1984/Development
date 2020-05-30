@@ -6,7 +6,7 @@ namespace Customers.DAL.Entities
 {
     public class DbCustomer
     {
-        public int Id { get; set; }
+        public long Pkid { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }

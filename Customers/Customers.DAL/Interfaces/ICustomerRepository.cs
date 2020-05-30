@@ -9,5 +9,7 @@ namespace Customers.DAL.Interfaces
     public interface ICustomerRepository
     {
         Task<Customer> CreateAsync(Customer customer);
+        Task<List<Customer>> GetAsync(CustomerFilter filter);
+
     }
 }

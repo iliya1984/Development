@@ -3,6 +3,7 @@ using Customers.DAL.Interfaces;
 using Customers.Entities;
 using Dapper;
 using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
@@ -13,6 +14,61 @@ namespace Customers.DAL
     {
         public CustomerRepository()
         {
+        }
+
+        public async Task<List<Customer>> GetAsync(CustomerFilter filter)
+        {
+            try
+            {
+                List<Customer> customers = new List<Customer>();
+                List<DbCustomer> dbCustomers = null;
+                
+                var dbCustomerFilter = new DbCustomerFilter();
+                dbCustomerFilter.CustomerId = filter.CustomerId;
+
+                await ExecuteAsync(async (connection) =>
+                {
+                    var dbItems = await connection.QueryAsync<DbCustomer>(
+                        sql: "usp_ustomerSelect",
+                        param: dbCustomerFilter,
+                        commandType: CommandType.StoredProcedure
+                    );
+
+                    dbCustomers = dbItems.ToList();
+                });
+
+                if (dbCustomers == null || false == dbCustomers.Any())
+                {
+                    return customers;
+                }
+
+                dbCustomers.ForEach(dbCustomer => 
+                {
+                    try
+                    {
+                        var customer = toCustomer(dbCustomer);
+                        if (customer != null) 
+                        {
+                            customers.Add(customer);
+                        }
+                        else 
+                        {
+                            //TODO: log error
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        //TODO: log error
+                    }
+                });
+
+                return customers;
+            }
+            catch (Exception ex)
+            {
+                //TODO: log error
+                return null;
+            }
         }
 
         public async Task<Customer> CreateAsync(Customer customer)
@@ -44,7 +100,7 @@ namespace Customers.DAL
         private DbCustomer toDbCustomer(Customer customer)
         {
             var dbCustomer = new DbCustomer();
-            dbCustomer.Id = customer.Id;
+            dbCustomer.Pkid = customer.Id;
             dbCustomer.FirstName = customer.FirstName;
             dbCustomer.LastName = customer.LastName;
             dbCustomer.Email = customer.Email;
@@ -55,12 +111,14 @@ namespace Customers.DAL
         private Customer toCustomer(DbCustomer dbCustomer)
         {
             var customer = new Customer();
-            customer.Id = dbCustomer.Id;
+            customer.Id = dbCustomer.Pkid;
             customer.FirstName = dbCustomer.FirstName;
             customer.LastName = dbCustomer.LastName;
             customer.Email = dbCustomer.Email;
             customer.Phone = dbCustomer.Phone;
             return customer;
         }
+
+       
     }
 }

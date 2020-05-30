@@ -41,5 +41,27 @@ namespace Customers.Controllers
                 return new ExceptionResult(ex, true);
             }
         }
+
+        [HttpGet]
+        [Route("api/customers")]
+        public async Task<IActionResult> GetCustomers()
+        {
+            try
+            {
+                var result = await _service.GetAsync(new CustomerFilter());
+
+                if (result == null)
+                {
+                    return new InternalServerErrorResult();
+                }
+
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return new ExceptionResult(ex, true);
+            }
+        }
+
     }
 }

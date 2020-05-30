@@ -31,5 +31,18 @@ namespace Customers.BLL
                 return null;
             }
         }
+
+        public async Task<List<Customer>> GetAsync(CustomerFilter filter)
+        {
+            try
+            {
+                return await _repository.GetAsync(filter);
+            }
+            catch (Exception ex)
+            {
+                //TODO: log error
+                return new List<Customer>();
+            }
+        }
     }
 }
