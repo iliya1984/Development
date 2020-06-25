@@ -3,16 +3,16 @@ using System.Threading.Tasks;
 using FlightCrm.DAL.Interfaces;
 using FlightCrm.Entities;
 using Dapper;
-using FlightCrm.DAL.DbEntities;
+using FlightCrm.DAL.DbEntities.Mssql;
 using System.Data;
 using System.Linq;
 using System.Collections.Generic;
 
 namespace FlightCrm.DAL.Repositories
 {
-    internal class FlightRepository : DapperRepository, IFlightRepository
+    internal class MssqlFlightRepository : MssqlRepository, IFlightRepository
     {
-        public FlightRepository() : base()
+        public MssqlFlightRepository()
         {
 
         }

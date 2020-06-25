@@ -1,6 +1,6 @@
 using System;
 
-namespace FlightCrm.DAL.DbEntities
+namespace FlightCrm.DAL.DbEntities.Mssql
 {
     public class DbFlight
     {
