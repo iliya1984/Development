@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "whkjmg6UARHylChptUrktXM5XjXBGZBg9kkDwqb9CF3sXk1/+umtAyjxmrr1sLt5MLhHYchzyB1cjxvyTWqWOw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\BoltTest\\BoltTest.Core\\BoltTest.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\autofac\\5.2.0\\autofac.5.2.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\htmlagilitypack\\1.11.24\\htmlagilitypack.1.11.24.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\nlog\\4.7.2\\nlog.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}

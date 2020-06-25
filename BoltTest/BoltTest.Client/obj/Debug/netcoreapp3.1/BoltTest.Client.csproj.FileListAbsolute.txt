@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Client\bin\Debug\netcoreapp3.1\BoltTest.Client.deps.json
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Client\bin\Debug\netcoreapp3.1\BoltTest.Client.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Client\bin\Debug\netcoreapp3.1\BoltTest.Client.pdb
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Client\obj\Debug\netcoreapp3.1\BoltTest.Client.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Client\obj\Debug\netcoreapp3.1\BoltTest.Client.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Client\obj\Debug\netcoreapp3.1\BoltTest.Client.AssemblyInfo.cs
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Client\obj\Debug\netcoreapp3.1\BoltTest.Client.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Client\obj\Debug\netcoreapp3.1\BoltTest.Client.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Client\obj\Debug\netcoreapp3.1\BoltTest.Client.pdb

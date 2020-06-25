@@ -7,3 +7,6 @@ C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Entities\obj\D
 C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Entities\obj\Debug\netcoreapp3.1\BoltTest.Entities.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Entities\obj\Debug\netcoreapp3.1\BoltTest.Entities.dll
 C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Entities\obj\Debug\netcoreapp3.1\BoltTest.Entities.pdb
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Entities\bin\Debug\netcoreapp3.1\BoltTest.Core.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Entities\bin\Debug\netcoreapp3.1\BoltTest.Core.pdb
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Entities\obj\Debug\netcoreapp3.1\BoltTest.Entities.csproj.CopyComplete

@@ -5,10 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Base\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="WebCrawlers\" />
-    <Folder Include="Repositories\" />
+    <ProjectReference Include="..\BoltTest.Core\BoltTest.Core.csproj" />
   </ItemGroup>
 
 </Project>
