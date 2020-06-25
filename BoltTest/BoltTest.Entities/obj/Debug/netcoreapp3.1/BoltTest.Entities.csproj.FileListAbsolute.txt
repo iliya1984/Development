@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Entities\bin\Debug\netcoreapp3.1\BoltTest.Entities.deps.json
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Entities\bin\Debug\netcoreapp3.1\BoltTest.Entities.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Entities\bin\Debug\netcoreapp3.1\BoltTest.Entities.pdb
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Entities\obj\Debug\netcoreapp3.1\BoltTest.Entities.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Entities\obj\Debug\netcoreapp3.1\BoltTest.Entities.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Entities\obj\Debug\netcoreapp3.1\BoltTest.Entities.AssemblyInfo.cs
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Entities\obj\Debug\netcoreapp3.1\BoltTest.Entities.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Entities\obj\Debug\netcoreapp3.1\BoltTest.Entities.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Entities\obj\Debug\netcoreapp3.1\BoltTest.Entities.pdb

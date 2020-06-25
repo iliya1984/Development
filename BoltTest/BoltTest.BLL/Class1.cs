@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BoltTest.Entities
+namespace BoltTest.BLL
 {
     public class Class1
     {

@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.DAL\bin\Debug\netcoreapp3.1\BoltTest.DAL.deps.json
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.DAL\bin\Debug\netcoreapp3.1\BoltTest.DAL.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.DAL\bin\Debug\netcoreapp3.1\BoltTest.DAL.pdb
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.DAL\obj\Debug\netcoreapp3.1\BoltTest.DAL.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.DAL\obj\Debug\netcoreapp3.1\BoltTest.DAL.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.DAL\obj\Debug\netcoreapp3.1\BoltTest.DAL.AssemblyInfo.cs
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.DAL\obj\Debug\netcoreapp3.1\BoltTest.DAL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.DAL\obj\Debug\netcoreapp3.1\BoltTest.DAL.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.DAL\obj\Debug\netcoreapp3.1\BoltTest.DAL.pdb
