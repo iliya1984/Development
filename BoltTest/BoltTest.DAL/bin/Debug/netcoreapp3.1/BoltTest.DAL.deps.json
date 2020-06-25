@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "BoltTest.DAL/1.0.0": {
         "dependencies": {
+          "Autofac": "5.2.0",
           "BoltTest.Core": "1.0.0",
           "BoltTest.Entities": "1.0.0",
           "HtmlAgilityPack": "1.11.24",

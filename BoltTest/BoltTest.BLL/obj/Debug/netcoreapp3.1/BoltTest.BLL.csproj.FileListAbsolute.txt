@@ -7,3 +7,10 @@ C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.BLL\obj\Debug\
 C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.BLL\obj\Debug\netcoreapp3.1\BoltTest.BLL.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.BLL\obj\Debug\netcoreapp3.1\BoltTest.BLL.dll
 C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.BLL\obj\Debug\netcoreapp3.1\BoltTest.BLL.pdb
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.BLL\bin\Debug\netcoreapp3.1\BoltTest.Core.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.BLL\bin\Debug\netcoreapp3.1\BoltTest.DAL.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.BLL\bin\Debug\netcoreapp3.1\BoltTest.Entities.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.BLL\bin\Debug\netcoreapp3.1\BoltTest.DAL.pdb
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.BLL\bin\Debug\netcoreapp3.1\BoltTest.Entities.pdb
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.BLL\bin\Debug\netcoreapp3.1\BoltTest.Core.pdb
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.BLL\obj\Debug\netcoreapp3.1\BoltTest.BLL.csproj.CopyComplete

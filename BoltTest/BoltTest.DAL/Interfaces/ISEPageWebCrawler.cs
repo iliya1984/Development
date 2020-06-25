@@ -1,4 +1,5 @@
 ﻿using BoltTest.DAL.WebCrawlers.SEPages;
+using BoltTest.Entities.Enums.Searches;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,6 +12,7 @@ namespace BoltTest.DAL.Interfaces
     /// </summary>
     public interface ISEPageWebCrawler
     {
+        ESearchEngine SearchEngine { get; }
         Task<CrawlingResult> CrawleAsync(CrawlingRequest request);
     }
 }
