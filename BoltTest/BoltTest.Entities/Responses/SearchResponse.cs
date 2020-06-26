@@ -27,5 +27,16 @@ namespace BoltTest.Entities.Responses
 
             return response;
         }
+
+        public static SearchResponse FromError(string errorMessage)
+        {
+            var response = new SearchResponse();
+            response.AddError(new Error
+            {
+                Message = errorMessage
+            });
+
+            return response;
+        }
     }
 }

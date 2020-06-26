@@ -11,6 +11,7 @@ using BoltTest.Entities.Searches;
 using BoltTest.Entities.Enums.Searches;
 using BoltTest.DAL.WebCrawling.SEPages;
 using System.Net.Http;
+using System.Linq;
 
 namespace BoltTest.DAL.WebCrawlers.SEPages
 {
@@ -37,12 +38,17 @@ namespace BoltTest.DAL.WebCrawlers.SEPages
                 var htmlNodes = document.DocumentNode.CssSelect("#b_results li h2 a");
 
                 result = new CrawlingResult();
-                foreach (var htmlNode in htmlNodes)
+
+                var hodeArray = htmlNodes.ToArray();
+                for (int i = 0; i < request.Take; i++)
                 {
+                    var htmlNode = hodeArray[i];
                     var item = new SearchResultItem();
-                    item.SearchEngine = ESearchEngine.Google;
+                    item.SearchEngine = ESearchEngine.Bing;
                     item.Title = htmlNode.InnerText;
                     result.SearchResults.Add(item);
+                    
+                    i++;
                 }
             }
             return result;

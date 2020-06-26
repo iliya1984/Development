@@ -58,3 +58,11 @@ C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.API\bin\Debug\
 C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.API\bin\Debug\netcoreapp3.1\BoltTest.Core.pdb
 C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.API\bin\Debug\netcoreapp3.1\BoltTest.Entities.pdb
 C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.API\bin\Debug\netcoreapp3.1\BoltTest.DAL.pdb
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.API\bin\Debug\netcoreapp3.1\nlog.config
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.API\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.API\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

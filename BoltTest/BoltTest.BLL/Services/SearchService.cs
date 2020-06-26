@@ -4,6 +4,7 @@ using BoltTest.DAL.Interfaces;
 using BoltTest.DAL.WebCrawlers.SEPages;
 using BoltTest.Entities.Requests;
 using BoltTest.Entities.Responses;
+using BoltTest.Entities.Searches;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -28,7 +29,8 @@ namespace BoltTest.BLL.Services
         {
             try
             {
-
+                var enteredDate = DateTime.Now;
+                string error = string.Empty;
                 var response = new SearchResponse();
                 response.QueryWord = request.QueryWord;
 
@@ -39,10 +41,28 @@ namespace BoltTest.BLL.Services
 
                     if (crawlingResult == null) 
                     {
-                        _logger.Error(string.Format("Error occurred while crawling {0} search engine.", crawler.SearchEngine));
+                        error = string.Format("Error occurred while crawling {0} search engine.", crawler.SearchEngine);
+                        _logger.Error(error);
+                        return SearchResponse.FromError(error);
                     }
 
-                    response.Results.AddRange(crawlingResult.SearchResults);
+                    var results = new List<SearchResultItem>();
+                    foreach(var item in crawlingResult.SearchResults) 
+                    {
+                        item.EnteredDate = enteredDate;
+                        var resultItem = await _repository.CreateAsync(item);
+                        if(resultItem == null) 
+                        {
+                            error = "Error occurred while saving search result item in DB";
+                            _logger.Error(error);
+                        }
+                        else 
+                        {
+                            results.Add(resultItem);
+                        }
+                    }
+
+                    response.Results.AddRange(results);
                 }
 
                 return response;
