@@ -57,6 +57,7 @@ namespace BoltTest.Spa.Managers
                 var itemViewModel = new SearchResultItemViewModel();
                 itemViewModel.Id = item.Id;
                 itemViewModel.Text = item.Title;
+                itemViewModel.SearchEngine = item.SearchEngine.ToString();
 
                 model.Items.Add(itemViewModel);
             }

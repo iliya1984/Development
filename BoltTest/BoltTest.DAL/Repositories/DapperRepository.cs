@@ -1,4 +1,5 @@
 ﻿using BoltTest.Core.Interfaces;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -11,11 +12,9 @@ namespace BoltTest.DAL.Repositories
         protected string ConnectionString { get; private set; }
         protected ILoggingService Logger { get; private set; }
 
-        protected DapperRepository(ILoggerFactory loggerFactory) 
+        protected DapperRepository(IConfiguration configuration, ILoggerFactory loggerFactory) 
         {
-            //var section = configuration.GetSection("Database:ConnectionString");
-            //ConnectionString = section.ToString();
-            ConnectionString = "Server=DESKTOP-LAS719G\\SQLEXPRESS;Database=BoltTest;User Id=administrator;Password=password;";
+            ConnectionString = configuration["Database:ConnectionString"];
             Logger = loggerFactory.GetLoggerForType(GetType());
         }
     }

@@ -4,6 +4,7 @@ using BoltTest.DAL.Interfaces;
 using BoltTest.Entities.Enums.Searches;
 using BoltTest.Entities.Searches;
 using Dapper;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -17,7 +18,7 @@ namespace BoltTest.DAL.Repositories
 {
     internal class SearchRepository : DapperRepository, ISearchRepository
     {
-        public SearchRepository(ILoggerFactory loggerFactory) : base(loggerFactory)
+        public SearchRepository(IConfiguration configuration, ILoggerFactory loggerFactory) : base(configuration, loggerFactory)
         {
         }
 
