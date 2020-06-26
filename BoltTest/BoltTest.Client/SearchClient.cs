@@ -25,7 +25,7 @@ namespace BoltTest.Client
             {
                 using(var httpClient = new HttpClient()) 
                 {
-                    string url = string.Format("{0}?queryword={1}", BaseApiUrl, queryWord);
+                    string url = string.Format("{0}/search?queryword={1}", BaseApiUrl, queryWord);
 
                     var httpResponse = await httpClient.GetAsync(url);
 

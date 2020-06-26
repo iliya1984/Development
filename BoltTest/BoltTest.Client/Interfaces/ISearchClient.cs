@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BoltTest.Client.Interfaces
 {
-    interface ISearchClient
+    public interface ISearchClient
     {
         Task<SearchResponse> SearchAsync(string queryWord);
     }

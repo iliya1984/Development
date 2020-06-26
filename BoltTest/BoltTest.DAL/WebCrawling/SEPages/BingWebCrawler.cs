@@ -47,8 +47,6 @@ namespace BoltTest.DAL.WebCrawlers.SEPages
                     item.SearchEngine = ESearchEngine.Bing;
                     item.Title = htmlNode.InnerText;
                     result.SearchResults.Add(item);
-                    
-                    i++;
                 }
             }
             return result;

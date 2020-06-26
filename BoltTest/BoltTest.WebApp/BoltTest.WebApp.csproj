@@ -4,4 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BoltTest.Client\BoltTest.Client.csproj" />
+    <ProjectReference Include="..\BoltTest.Core\BoltTest.Core.csproj" />
+  </ItemGroup>
+
 </Project>
