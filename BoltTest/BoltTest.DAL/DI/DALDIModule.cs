@@ -1,6 +1,7 @@
 ﻿using Autofac;
 using BoltTest.Core.DI;
 using BoltTest.DAL.Interfaces;
+using BoltTest.DAL.Repositories;
 using BoltTest.DAL.WebCrawlers.SEPages;
 using BoltTest.Entities.Enums.Searches;
 using System;
@@ -18,8 +19,13 @@ namespace BoltTest.DAL.DI
             builder
                 .RegisterType<GoogleWebCrawler>()
                 .Keyed<ISEPageWebCrawler>(ESearchEngine.Google);
+            builder
+               .RegisterType<BingWebCrawler>()
+               .Keyed<ISEPageWebCrawler>(ESearchEngine.Bing);
 
-
+            builder
+                .RegisterType<SearchRepository>()
+                .As<ISearchRepository>();
         }
     }
 }

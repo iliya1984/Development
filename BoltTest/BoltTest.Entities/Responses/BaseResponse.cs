@@ -23,6 +23,8 @@ namespace BoltTest.Entities.Responses
             _errors = errors.ToList();
         }
 
+        public bool HasErrors { get { return _errors != null && _errors.Any(); } }
+
         public void AddError(Error error)
         {
             if (error == null) 

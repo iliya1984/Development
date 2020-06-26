@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BoltTest.Core.Helpers
 {
-    internal class HtmlWebHelper
+    internal class HtmlWebHelper : IHtmlWebHelper
     {
         private HtmlWeb _htmlWeb;
         private ILoggingService _logger;
@@ -24,6 +24,19 @@ namespace BoltTest.Core.Helpers
             try
             {
                 return await _htmlWeb.LoadFromWebAsync(url);
+            }
+            catch (Exception ex)
+            {
+                _logger.Error(ex);
+                throw;
+            }
+        }
+
+        public HtmlDocument Load(string url)
+        {
+            try
+            {
+                return _htmlWeb.Load(url);
             }
             catch (Exception ex)
             {

@@ -6,6 +6,6 @@ namespace BoltTest.Entities.Requests
 {
     public class RequestHeader
     {
-        public string SessionId { get; set; }
+        //TODO: Add some informative fields for logging purposes and other
     }
 }

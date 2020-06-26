@@ -28,8 +28,8 @@ namespace BoltTest.BLL.DI
 
                     var crawlers = new List<ISEPageWebCrawler>();
 
-                    var googleCrawler = c.ResolveKeyed<ISEPageWebCrawler>(ESearchEngine.Google);
-                    crawlers.Add(googleCrawler);
+                    var bingCrawler = c.ResolveKeyed<ISEPageWebCrawler>(ESearchEngine.Bing);
+                    crawlers.Add(bingCrawler);
 
                     toolkit.Crawlers = crawlers;
 

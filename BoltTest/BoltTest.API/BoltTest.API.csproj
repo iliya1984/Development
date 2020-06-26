@@ -5,7 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
     <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BoltTest.BLL\BoltTest.BLL.csproj" />
+    <ProjectReference Include="..\BoltTest.Core\BoltTest.Core.csproj" />
+    <ProjectReference Include="..\BoltTest.Entities\BoltTest.Entities.csproj" />
   </ItemGroup>
 
 

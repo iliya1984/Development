@@ -22,7 +22,7 @@ namespace BoltTest.DAL.WebCrawlers.SEPages
         protected override async Task<CrawlingResult> CrawleInnerAsync(CrawlingRequest request) 
         {
             string url = string.Format("{0}?q={1}", BaseUrl, request.QueryWord);
-            var document = await HtmlWeb.LoadFromWebAsync(url);
+            var document = await HtmlWeb.LoadFromWebAsync("https://www.google.com");
 
             var htmlNodes = document.DocumentNode.CssSelect("#search .g h3, #search .g h2");
 

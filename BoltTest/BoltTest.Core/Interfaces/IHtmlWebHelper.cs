@@ -8,6 +8,7 @@ namespace BoltTest.Core.Interfaces
 {
     public interface IHtmlWebHelper
     {
+        HtmlDocument Load(string url);
         Task<HtmlDocument> LoadFromWebAsync(string url);
     }
 }
