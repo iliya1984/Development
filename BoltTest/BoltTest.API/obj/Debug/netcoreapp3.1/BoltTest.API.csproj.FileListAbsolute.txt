@@ -68,3 +68,8 @@ C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.API\bin\Debug\
 C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll

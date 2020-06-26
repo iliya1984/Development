@@ -1,11 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "21z5OJ7Rqnp5KloBZl82IQPfp/ecLzVANK89gVTP8E5aOUl6Zj7+UJ9aUOCIqDOA65Ud+1bvqzHxVhNRcWJECQ==",
+  "dgSpecHash": "GqufKWocS9z6+s2nY47WsJZSAvg+fVWedBSso5xH9O7A/FNcR1VWHntdFXDBlz3NJnz6Zo+khNqiBoVR8dpC+Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Desktop\\Workspace\\GIT\\Development\\BoltTest\\BoltTest.Entities\\BoltTest.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\autofac\\5.2.0\\autofac.5.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\htmlagilitypack\\1.11.24\\htmlagilitypack.1.11.24.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.5\\microsoft.extensions.caching.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.5\\microsoft.extensions.caching.memory.3.1.5.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.5\\microsoft.extensions.dependencyinjection.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.5\\microsoft.extensions.logging.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.options\\3.1.5\\microsoft.extensions.options.3.1.5.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.5\\microsoft.extensions.primitives.3.1.5.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\nlog\\4.7.2\\nlog.4.7.2.nupkg.sha512"
   ],
   "logs": []

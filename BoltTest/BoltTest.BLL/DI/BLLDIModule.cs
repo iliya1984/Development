@@ -6,6 +6,7 @@ using BoltTest.Core.Interfaces;
 using BoltTest.DAL.DI;
 using BoltTest.DAL.Interfaces;
 using BoltTest.Entities.Enums.Searches;
+using Microsoft.Extensions.Caching.Memory;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -18,6 +19,9 @@ namespace BoltTest.BLL.DI
         {
             builder.RegisterModule<CoreDIModule>();
             builder.RegisterModule<DALDIModule>();
+
+            var memoryCache = new MemoryCache(new MemoryCacheOptions());
+            builder.RegisterInstance<IMemoryCache>(memoryCache);
 
             builder
                 .Register(c =>
@@ -34,6 +38,8 @@ namespace BoltTest.BLL.DI
                     crawlers.Add(googleCrawler);
 
                     toolkit.Crawlers = crawlers;
+
+                    toolkit.MemoryCache = c.Resolve<IMemoryCache>();
 
                     return new SearchService(toolkit);
                 })

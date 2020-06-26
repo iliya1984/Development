@@ -46,3 +46,9 @@ C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Spa\obj\Debug\
 C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Spa\obj\Debug\netcoreapp3.1\BoltTest.Spa.pdb
 C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Spa\obj\Debug\netcoreapp3.1\BoltTest.Spa.genruntimeconfig.cache
 C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Spa\bin\Debug\netcoreapp3.1\nlog.config
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Spa\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Spa\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Spa\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Spa\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Spa\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\Workspace\GIT\Development\BoltTest\BoltTest.Spa\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
